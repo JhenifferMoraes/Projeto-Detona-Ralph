@@ -14,6 +14,9 @@ No HTML
         <source id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.mp3" type="audio/mp3">
         Seu navegador não suporta o elemento audio.
     </audio>
+<!-- botão para caso a musica não entre da mesma forma" -->
+  <button onclick="document.getElementById('background-music').play()">Reproduzir Música</button> 
+
 ```
 ```
 No JS
@@ -46,7 +49,7 @@ function countDown(){
 }
 ```
 📍 Mudanças no CSS
-Na parte visual, decidi criar um "efeito de vidro" nas box do jogo, aumentar o tamanho e adicionar alguns ajustes de centralização. Além disso troquei minha imagem por uma em gif fazendo que a experiencia divertidade aumentasse.
+Na parte visual, decidi criar um "efeito de vidro" nas box do jogo, aumentar o tamanho e adicionar alguns ajustes de centralização. Além disso troquei minha imagem por uma em gif fazendo que a experiencia divertida aumentasse:
 ``` 
 .square{
     height: 180px;
