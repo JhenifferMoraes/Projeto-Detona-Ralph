@@ -14,7 +14,12 @@
 </head>
 <body>
     <!-- Elemento de áudio com o ID "background-music" -->
-    <audio id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.mp3" preload="auto"></audio>
+    <audio id="background-music" autoplay loop>
+        <source id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.wav" type="audio/mav">
+        <source id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.ogg" type="audio/ogg">
+        <source id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento audio.
+    </audio>
 
     <div class="container">
         <div class="menu">
