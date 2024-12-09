@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 120px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+
+}
+
+.panel{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.square{
+    height: 180px;
+    width: 180px;
+    background: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito de vidro fosco */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com navegadores WebKit */
+    border-radius: 10px; /* Bordas arredondadas para suavizar */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Borda semi-transparente */
+}
+
+.enemy{
+    background-image: url("../images/ralph.gif");
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+    filter: blur(1px); /* Aplica o efeito de desfoque */
+    -webkit-filter: blur(1px); /* Compatibilidade com navegadores WebKit */
+}
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+/*estou spendurando no 2 filho do menu-time com nome de h2*/
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2){  
+    margin-top:15px;
+
+}
