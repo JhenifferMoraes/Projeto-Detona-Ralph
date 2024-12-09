@@ -1,6 +1,6 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=89033a&height=150&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=a02713&height=150&section=header"/>
 
-# Projeto Jogo do Detona Ralph com Javascript
+# Projeto Jogo do Detona Ralph com Javascript <img width=5% src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI9MvBQOlRz6C15np_kc5MW6Kp0Ijk_7H92dW9JnjfO8WUwd7DVVc9mSPhRy4-kmuVlDMezD8yaL6X5q1pHYw1vd7ZM6XHjKhccDoZSnsPhCSwwwstS8KGB1DlKSfyelSQnoTzYE2JjhY/s1600/1.gif"/>
 Neste incrível projeto disponibilizado pela Dio para os participantes do Bootcamp Ri Happy - Front-end do Zero, a principal ideia era aprendermos mais sobre HTML, CSS e JavaScript na prática e fixarmos ainda mais diversos conceitos vistos durante o curso principalmente se tratando do JS. Também era opcional que cada aluno acrescentasse em seu projeto o seu "próprio toque". Sendo assim, fiz algumas melhorias que vi necessidade durante o desenvolvimento, tanto em questões estéticas quanto de funcionamento.
 
 📍 Música na página  
@@ -91,4 +91,4 @@ Abaixo, deixarei alguns links para downloads oficiais de tudo o que foi utilizad
 ### 🪄Link do Projeto
 Clique [aqui](https://jheniffermoraes.github.io/projeto-detona-ralph/) e acesse o projeto!
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=89033a&height=100&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=a02713&height=100&section=footer"/>
