@@ -1,20 +1,20 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=a02713&height=150&section=header"/>
 
-# Projeto Jogo do Detona Ralph com Javascript <img width=5% src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI9MvBQOlRz6C15np_kc5MW6Kp0Ijk_7H92dW9JnjfO8WUwd7DVVc9mSPhRy4-kmuVlDMezD8yaL6X5q1pHYw1vd7ZM6XHjKhccDoZSnsPhCSwwwstS8KGB1DlKSfyelSQnoTzYE2JjhY/s1600/1.gif"/>
+# Projeto Jogo do Detona Ralph com Javascript 
 Neste incrível projeto disponibilizado pela Dio para os participantes do Bootcamp Ri Happy - Front-end do Zero, a principal ideia era aprendermos mais sobre HTML, CSS e JavaScript na prática e fixarmos ainda mais diversos conceitos vistos durante o curso principalmente se tratando do JS. Também era opcional que cada aluno acrescentasse em seu projeto o seu "próprio toque". Sendo assim, fiz algumas melhorias que vi necessidade durante o desenvolvimento, tanto em questões estéticas quanto de funcionamento.
 
-📍 Música na página  
+###  <img width=5% src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI9MvBQOlRz6C15np_kc5MW6Kp0Ijk_7H92dW9JnjfO8WUwd7DVVc9mSPhRy4-kmuVlDMezD8yaL6X5q1pHYw1vd7ZM6XHjKhccDoZSnsPhCSwwwstS8KGB1DlKSfyelSQnoTzYE2JjhY/s1600/1.gif"/> Música na página  
 Um dos toques de experiência acrescentados foi uma melodia ao entrar na página. Durante o processo, verifiquei que era necessário algo que fizesse com que os áudios funcionassem perfeitamente em todos os navegadores e automaticamente ao iniciar a página. Porém, em alguns navegadores, existem ferramentas que bloqueiam os áudios e, sendo assim, desenvolvi esta estrutura abaixo:
 ```
 No HTML
-  <!-- Elemento de áudio com o ID "background-music" -->
+  <!-- 🔴 Elemento de áudio com o ID "background-music" -->
     <audio id="background-music" autoplay loop>
         <source id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.wav" type="audio/mav">
         <source id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.ogg" type="audio/ogg">
         <source id="background-music" src="./src/audios/HoliznaCC0 - Adventure Begins Loop.mp3" type="audio/mp3">
         Seu navegador não suporta o elemento audio.
     </audio>
-<!-- botão para caso a musica não entre da mesma forma" -->
+<!-- 🔴 botão para caso a musica não entre da mesma forma" -->
   <button onclick="document.getElementById('background-music').play()">Reproduzir Música</button> 
 
 ```
@@ -33,7 +33,7 @@ window.onload = function() {
 };
 ```
 
-📍 Atualização automática da página
+###  <img width=5% src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI9MvBQOlRz6C15np_kc5MW6Kp0Ijk_7H92dW9JnjfO8WUwd7DVVc9mSPhRy4-kmuVlDMezD8yaL6X5q1pHYw1vd7ZM6XHjKhccDoZSnsPhCSwwwstS8KGB1DlKSfyelSQnoTzYE2JjhY/s1600/1.gif"/>Atualização automática da página
 Foi adicionada uma atualização automática após o usuário vencer o jogo. O código implementado foi o seguinte:
 ```
 function countDown(){
@@ -48,8 +48,8 @@ function countDown(){
     }
 }
 ```
-📍 Mudanças no CSS
-Na parte visual, decidi criar um "efeito de vidro" nas box do jogo, aumentar o tamanho e adicionar alguns ajustes de centralização. Além disso troquei minha imagem por uma em gif fazendo que a experiencia divertida aumentasse:
+### <img width=5% src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI9MvBQOlRz6C15np_kc5MW6Kp0Ijk_7H92dW9JnjfO8WUwd7DVVc9mSPhRy4-kmuVlDMezD8yaL6X5q1pHYw1vd7ZM6XHjKhccDoZSnsPhCSwwwstS8KGB1DlKSfyelSQnoTzYE2JjhY/s1600/1.gif"/> Mudanças no CSS
+Na parte visual, decidi criar um "efeito de vidro" nas caixas do jogo, aumentar o tamanho e realizar alguns ajustes de centralização. Além disso, substituí minha imagem por um GIF, tornando a experiência mais divertida:
 ``` 
 .square{
     height: 180px;
